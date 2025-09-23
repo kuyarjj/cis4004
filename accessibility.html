@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Accessibility – YOUR NAME</title>
+<meta name="description" content="Accessibility statement and checklist for YOUR NAME's site" />
+<link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to content</a>
+
+<header class="site-header" role="banner">
+<div class="container header-inner">
+<h1 class="site-title">Accessibility</h1>
+<p class="tagline">My commitment to inclusive web design</p>
+</div>
+<nav class="site-nav" aria-label="Main navigation">
+<ul>
+<li><a href="index.html">Résumé</a></li>
+<li><a href="projects.html">Projects</a></li>
+<li><a href="contact.html">Contact</a></li>
+<li><a href="accessibility.html" aria-current="page">Accessibility</a></li>
+</ul>
+</nav>
+</header>
+
+<main id="main" class="container" role="main">
+<section aria-labelledby="statement">
+<h2 id="statement">Accessibility Statement</h2>
+<p>This site aims to conform to WCAG 2.2 AA where possible. Pages use semantic HTML5 landmarks, labeled form controls, sufficient color contrast, visible focus states, and keyboard‑accessible navigation. Images include descriptive alternative text. If you encounter barriers, email <a href="mailto:YOUR.EMAIL@EXAMPLE.COM">YOUR.EMAIL@EXAMPLE.COM</a>.</p>
+</section>
+
+<section aria-labelledby="checklist">
+<h2 id="checklist">Tester Checklist</h2>
+<ol>
+<li>Navigate only with the keyboard (Tab/Shift+Tab/Enter/Space). All interactive elements must be focusable and operable.</li>
+<li>Check color contrast against background (aim ≥ 4.5:1 for body text).</li>
+<li>Ensure <code>lang</code> attribute is present and page has a descriptive <code>&lt;title&gt;</code>.</li>
+<li>Validate HTML via the W3C validator and fix any errors/warnings.</li>
+<li>Use headings in logical order (one H1 per page; no skipping levels for layout).</li>
+<li>Form fields have associated <code>&lt;label&gt;</code> and required states.</li>
+</ol>
+</section>
+</main>
+
+<footer class="site-footer" role="contentinfo">
+<div class="container">
+<p>© <span id="year"></span> YOUR NAME</p>
+</div>
+</footer>
+<script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+</html>
+
+add accessibility.html
