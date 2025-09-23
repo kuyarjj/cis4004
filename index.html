@@ -1,56 +1,122 @@
 <!doctype html>
-</article>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>YOUR NAME – Résumé</title>
+  <meta name="description" content="Résumé and portfolio of YOUR NAME, an IT student specializing in IT support, networking, and systems." />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
 
-<article class="job" aria-labelledby="job2-title">
-<header>
-<h3 id="job2-title">ROLE TITLE — COMPANY/ORG</h3>
-<p class="muted">City, ST · MMM YYYY – MMM YYYY</p>
-</header>
-<ul>
-<li>Bullet point.</li>
-<li>Bullet point.</li>
-<li>Bullet point.</li>
-</ul>
-</article>
-</section>
+  <header class="site-header" role="banner">
+    <div class="container header-inner">
+      <!-- 👇 Replace with your actual uploaded image path -->
+      <img class="avatar" 
+           src="Resized(1757705775656)_Resized_20250912_153601.JPEG" 
+           alt="Portrait of YOUR NAME" 
+           width="96" 
+           height="96" />
 
-<section aria-labelledby="education-heading">
-<h2 id="education-heading">Education</h2>
-<p><strong>University of Central Florida</strong> — B.S. Information Technology (Expected May 2026)</p>
-<ul class="muted">
-<li>Relevant courses: Systems Admin, Networking, Web Dev, Security, Project Management</li>
-<li>Awards/Dean’s List (if applicable)</li>
-</ul>
-</section>
+      <div>
+        <h1 class="site-title">YOUR NAME</h1>
+        <p class="tagline">IT Student · Help Desk · Systems · Networking</p>
+      </div>
+    </div>
+    <nav class="site-nav" aria-label="Main navigation">
+      <ul>
+        <li><a href="index.html" aria-current="page">Résumé</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="accessibility.html">Accessibility</a></li>
+      </ul>
+    </nav>
+  </header>
 
-<section aria-labelledby="certs-heading">
-<h2 id="certs-heading">Certifications</h2>
-<ul>
-<li>CompTIA A+ (if earned / in progress)</li>
-<li>AWS Cloud Practitioner (if earned / in progress)</li>
-</ul>
-</section>
+  <main id="main" class="container" role="main">
+    <section aria-labelledby="summary-heading">
+      <h2 id="summary-heading">Summary</h2>
+      <p>UCF senior (expected May 2026) with hands-on experience in hardware/software support, networking, and IT service delivery. Skilled in Windows, macOS, and basic Linux environments, with exposure to AWS and Cisco labs. Strong background in troubleshooting, documentation, and customer support.</p>
+    </section>
 
-<aside aria-labelledby="links-heading" class="aside">
-<h2 id="links-heading">Links</h2>
-<ul>
-<li><a href="https://www.linkedin.com/in/YOUR-LINK" target="_blank" rel="noreferrer">LinkedIn</a></li>
-<li><a href="https://github.com/YOUR-USER" target="_blank" rel="noreferrer">GitHub</a></li>
-<li><a href="projects.html">Selected projects</a></li>
-</ul>
-</aside>
-</main>
+    <section aria-labelledby="skills-heading">
+      <h2 id="skills-heading">Skills</h2>
+      <ul class="pill-list">
+        <li>Hardware &amp; Software Support</li>
+        <li>Windows / macOS</li>
+        <li>Networking (TCP/IP, VLANs, CLI basics)</li>
+        <li>Ticketing &amp; Documentation</li>
+        <li>Git &amp; GitHub</li>
+        <li>AWS Fundamentals</li>
+      </ul>
+    </section>
 
-<footer class="site-footer" role="contentinfo">
-<div class="container">
-<p>© <span id="year"></span> YOUR NAME · <a href="contact.html">Contact</a></p>
-</div>
-</footer>
+    <section aria-labelledby="experience-heading">
+      <h2 id="experience-heading">Experience</h2>
 
-<script>
-// small enhancement for current year
-document.getElementById('year').textContent = new Date().getFullYear();
-</script>
+      <article class="job" aria-labelledby="job1-title">
+        <header>
+          <h3 id="job1-title">ROLE TITLE — COMPANY/ORG</h3>
+          <p class="muted">City, ST · MMM YYYY – MMM YYYY</p>
+        </header>
+        <ul>
+          <li>Resolved 30+ support tickets monthly with high customer satisfaction.</li>
+          <li>Troubleshot hardware/software issues across desktops, laptops, and POS systems.</li>
+          <li>Documented solutions to improve knowledge base and reduce repeat incidents.</li>
+        </ul>
+      </article>
+
+      <article class="job" aria-labelledby="job2-title">
+        <header>
+          <h3 id="job2-title">ROLE TITLE — COMPANY/ORG</h3>
+          <p class="muted">City, ST · MMM YYYY – MMM YYYY</p>
+        </header>
+        <ul>
+          <li>Bullet point.</li>
+          <li>Bullet point.</li>
+          <li>Bullet point.</li>
+        </ul>
+      </article>
+    </section>
+
+    <section aria-labelledby="education-heading">
+      <h2 id="education-heading">Education</h2>
+      <p><strong>University of Central Florida</strong> — B.S. Information Technology (Expected May 2026)</p>
+      <ul class="muted">
+        <li>Relevant courses: Systems Admin, Networking, Web Dev, Security, Project Management</li>
+        <li>Awards/Dean’s List (if applicable)</li>
+      </ul>
+    </section>
+
+    <section aria-labelledby="certs-heading">
+      <h2 id="certs-heading">Certifications</h2>
+      <ul>
+        <li>CompTIA A+ (if earned / in progress)</li>
+        <li>AWS Cloud Practitioner (if earned / in progress)</li>
+      </ul>
+    </section>
+
+    <aside aria-labelledby="links-heading" class="aside">
+      <h2 id="links-heading">Links</h2>
+      <ul>
+        <li><a href="https://www.linkedin.com/in/YOUR-LINK" target="_blank" rel="noreferrer">LinkedIn</a></li>
+        <li><a href="https://github.com/YOUR-USER" target="_blank" rel="noreferrer">GitHub</a></li>
+        <li><a href="projects.html">Selected projects</a></li>
+      </ul>
+    </aside>
+  </main>
+
+  <footer class="site-footer" role="contentinfo">
+    <div class="container">
+      <p>© <span id="year"></span> YOUR NAME · <a href="contact.html">Contact</a></p>
+    </div>
+  </footer>
+
+  <script>
+    // small enhancement for current year
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
 </body>
 </html>
 
