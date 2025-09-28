@@ -4,12 +4,12 @@ body {
   line-height: 1.6;
   margin: 0;
   padding: 0;
-  background: #0d1117;
-  color: #c9d1d9;
+  background: #f5f5f5;
+  color: #333;
 }
 
 a {
-  color: #58a6ff;
+  color: #0366d6;
   text-decoration: none;
 }
 a:hover {
@@ -18,7 +18,7 @@ a:hover {
 
 h1, h2, h3 {
   margin-top: 0;
-  color: #fff;
+  color: #111;
 }
 
 /* ===== Layout ===== */
@@ -31,9 +31,9 @@ h1, h2, h3 {
 
 /* ===== Header ===== */
 .site-header {
-  background: #161b22;
+  background: #fff;
   padding: 1rem 0;
-  border-bottom: 1px solid #30363d;
+  border-bottom: 1px solid #ddd;
 }
 
 .header-inner {
@@ -43,11 +43,11 @@ h1, h2, h3 {
 }
 
 .avatar {
-  width: 100px;
-  height: 100px;
+  width: 120px;
+  height: 120px;
   border-radius: 50%;
   object-fit: cover;
-  border: 2px solid #30363d;
+  border: 2px solid #ccc;
 }
 
 .site-title {
@@ -57,7 +57,7 @@ h1, h2, h3 {
 
 .tagline {
   font-size: 1rem;
-  color: #8b949e;
+  color: #555;
 }
 
 /* ===== Nav ===== */
@@ -70,12 +70,12 @@ h1, h2, h3 {
 }
 
 .site-nav a {
-  color: #c9d1d9;
+  color: #333;
   font-weight: 500;
 }
 
 .site-nav a[aria-current="page"] {
-  border-bottom: 2px solid #58a6ff;
+  border-bottom: 2px solid #0366d6;
   padding-bottom: 0.25rem;
 }
 
@@ -93,7 +93,7 @@ ul.pill-list {
 }
 
 ul.pill-list li {
-  background: #21262d;
+  background: #eaeaea;
   padding: 0.4rem 0.8rem;
   border-radius: 20px;
   font-size: 0.9rem;
@@ -101,31 +101,31 @@ ul.pill-list li {
 
 /* ===== Jobs ===== */
 .job {
-  background: #161b22;
+  background: #fff;
   padding: 1rem;
   margin-bottom: 1rem;
   border-radius: 10px;
-  border: 1px solid #30363d;
+  border: 1px solid #ddd;
 }
 
 .job header p {
   font-size: 0.9rem;
-  color: #8b949e;
+  color: #555;
 }
 
-/* ===== Sidebar (Links, Education, etc.) ===== */
+/* ===== Sidebar ===== */
 .aside {
-  background: #161b22;
+  background: #fff;
   padding: 1rem;
   border-radius: 10px;
-  border: 1px solid #30363d;
+  border: 1px solid #ddd;
 }
 
 /* ===== Footer ===== */
 .site-footer {
   text-align: center;
   padding: 1rem 0;
-  border-top: 1px solid #30363d;
-  color: #8b949e;
+  border-top: 1px solid #ddd;
+  color: #555;
   font-size: 0.9rem;
 }
